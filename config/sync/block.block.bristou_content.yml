@@ -1,0 +1,22 @@
+uuid: 33399919-6b5a-4d0c-95be-277b7ef0aac8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bristou
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: bristou_content
+theme: bristou
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

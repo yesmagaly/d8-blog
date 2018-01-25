@@ -1,0 +1,26 @@
+uuid: 311b86bc-cc1b-4bb6-bed5-6c470db4e452
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - bristou
+_core:
+  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+id: bristou_account_menu
+theme: bristou
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

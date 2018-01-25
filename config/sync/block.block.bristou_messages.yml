@@ -1,0 +1,22 @@
+uuid: b1a11dd6-367c-4a16-9ff1-a689ee8853c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bristou
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: bristou_messages
+theme: bristou
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

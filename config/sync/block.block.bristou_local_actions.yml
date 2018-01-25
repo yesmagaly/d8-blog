@@ -1,0 +1,20 @@
+uuid: c31d9fce-da51-4113-b62a-b45eb5513d3f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bristou
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: bristou_local_actions
+theme: bristou
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

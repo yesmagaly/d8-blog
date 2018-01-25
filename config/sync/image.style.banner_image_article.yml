@@ -1,0 +1,14 @@
+uuid: 7ffaeeb4-6016-43ee-ae27-48ac5fbef4c6
+langcode: en
+status: true
+dependencies: {  }
+name: banner_image_article
+label: 'Banner image article (750x515)'
+effects:
+  218eda08-09c8-42a9-81b5-460d6f012c18:
+    uuid: 218eda08-09c8-42a9-81b5-460d6f012c18
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 750
+      height: 515
