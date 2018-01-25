@@ -1,0 +1,6 @@
+base:
+  version: VERSION
+  css:
+    component:
+      css/layout.css: {}
+      css/article.css: {}

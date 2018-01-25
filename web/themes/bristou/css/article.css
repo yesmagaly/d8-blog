@@ -1,0 +1,34 @@
+
+.article__container {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.article__container a {
+  text-decoration: none;
+}
+
+.article__cathegory a {
+  color: #c49b5f;
+  font-style: italic;
+  font-size: .85rem;
+  font-weight: 600;
+}
+
+.article__title {
+  font-size: 600;
+  margin: .5rem;
+  text-transform: uppercase;
+}
+
+.article__title a {
+  color: black;
+}
+
+.article__summary p {
+  color: #4b4a47;
+  font-size: .95rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  text-align: center;
+}
