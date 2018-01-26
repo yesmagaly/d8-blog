@@ -4,3 +4,23 @@ base:
     component:
       css/layout.css: {}
       css/article.css: {}
+      css/article-carousel.css: {}
+      css/banner-view.css: {}
+
+slick-carousel:
+  css:
+    theme:
+      node_modules/slick-carousel/slick/slick.css: {}
+      node_modules/slick-carousel/slick/slick-theme.css: {}
+  js:
+    node_modules/slick-carousel/slick/slick.js: {}
+
+  dependencies:
+    - core/jquery
+
+carousel:
+  js:
+    js/carousel.js: {}
+
+  dependencies:
+    - bristou/slick-carousel
