@@ -1,0 +1,7 @@
+.banner {
+  margin-bottom: 4rem;
+}
+
+.banner__content .views-row {
+  width: 900px !important;
+}
