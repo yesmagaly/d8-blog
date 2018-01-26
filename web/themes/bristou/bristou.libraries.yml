@@ -6,6 +6,7 @@ base:
       css/article.css: {}
       css/article-carousel.css: {}
       css/banner-view.css: {}
+      css/article-mini.css: {}
 
 slick-carousel:
   css:

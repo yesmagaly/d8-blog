@@ -1,0 +1,38 @@
+.popular-post {
+  display: flex;
+}
+
+.popular-post__photo img {
+  border: 4px solid white;
+  object-fit: cover;
+}
+
+.popular-post__content {
+  margin-left: 1rem;
+}
+
+.popular-post__content h2 {
+  font-size: .78rem;
+  margin: 0;
+  position: relative;
+  top: 6px;
+}
+
+.popular-post__content a {
+  color: black;
+  text-decoration: none;
+}
+
+.popular-post__date {
+  margin-top: .5rem;
+}
+.popular-post__date span {
+  color: #afadab;
+  font-size: .77rem;
+}
+
+.popular-post__border {
+  border: .7px dashed #e8e8e8;
+  width: 100%;
+  margin: 1rem 0;
+}
