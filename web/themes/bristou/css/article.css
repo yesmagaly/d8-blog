@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+.article__cathegory {
+  margin-top: 3rem;
+}
+
 .article__cathegory a {
   color: #c49b5f;
   font-style: italic;
