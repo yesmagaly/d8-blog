@@ -70,26 +70,20 @@
  *   in different view modes.
  */
 #}
-<article{{ attributes }}>
-  <div class="popular-posts">
-    <div class="popular-post">
-      <div class="popular-post__photo">
-        {{content.field_image}}
-      </div>
-      <div class="popular-post__content">
-        <h2>
-          <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-        </h2>
-        <div class="popular-post__date">
-          {{ date }}
-        </div>
+<article class="popular-post">
+    <div class="popular-post__photo">
+      {{content.field_image}}
+    </div>
+    <div class="popular-post__content">
+      <h2>
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+      </h2>
+      <div class="popular-post__date">
+        {{ date }}
       </div>
     </div>
-    <div class="popular-post__border"></div>
-  </div>
 
   <div{{ content_attributes }}>
     {{ content|without("field_image") }}
   </div>
-
 </article>

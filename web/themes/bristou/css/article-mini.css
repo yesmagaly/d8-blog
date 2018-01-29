@@ -1,5 +1,7 @@
 .popular-post {
   display: flex;
+  border-bottom: .5px dashed #e8e8e8;
+  padding: 1rem 0;
 }
 
 .popular-post__photo img {
@@ -29,10 +31,4 @@
 .popular-post__date span {
   color: #afadab;
   font-size: .77rem;
-}
-
-.popular-post__border {
-  border: .7px dashed #e8e8e8;
-  width: 100%;
-  margin: 1rem 0;
 }
