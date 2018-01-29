@@ -1,0 +1,14 @@
+uuid: 0ea5bf9a-66fd-4d37-8011-32cb319300b1
+langcode: en
+status: true
+dependencies: {  }
+name: mini
+label: 'Mini (90x75)'
+effects:
+  57bb241f-e930-4a55-9442-aaf946bbc6e4:
+    uuid: 57bb241f-e930-4a55-9442-aaf946bbc6e4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 90
+      height: 75

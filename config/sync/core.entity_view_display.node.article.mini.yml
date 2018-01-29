@@ -1,0 +1,36 @@
+uuid: 2c670fa0-da34-4a30-885b-df1cbf1bcaf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.mini
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - image.style.mini
+    - node.type.article
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: qVtHNxqdXB9w369AO5JB5SVhflquWqFm5xfyvYLAIlM
+id: node.article.mini
+targetEntityType: node
+bundle: article
+mode: mini
+content:
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    settings:
+      image_style: mini
+      image_link: ''
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  body: true
+  comment: true
+  field_tags: true
+  links: true

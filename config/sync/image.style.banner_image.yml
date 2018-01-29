@@ -1,0 +1,14 @@
+uuid: 55d2813c-be32-4036-a027-a75e377cc880
+langcode: en
+status: true
+dependencies: {  }
+name: banner_image
+label: 'Banner image (900x510)'
+effects:
+  02ad0b67-a27e-435a-bd84-af714efa1c5c:
+    uuid: 02ad0b67-a27e-435a-bd84-af714efa1c5c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 900
+      height: 510

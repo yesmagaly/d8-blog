@@ -1,0 +1,30 @@
+uuid: be1e23f8-e628-4ea4-b7bb-fcaacff70208
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.popular_posts
+  module:
+    - system
+    - views
+  theme:
+    - bristou
+id: views_block__popular_posts_popular_posts_view
+theme: bristou
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'views_block:popular_posts-popular_posts_view'
+settings:
+  id: 'views_block:popular_posts-popular_posts_view'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

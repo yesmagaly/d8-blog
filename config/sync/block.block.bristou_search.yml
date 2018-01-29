@@ -1,6 +1,6 @@
 uuid: e526df31-c268-4cb7-99ee-816d1b6104db
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - search
@@ -11,7 +11,7 @@ _core:
 id: bristou_search
 theme: bristou
 region: sidebar_first
-weight: -1
+weight: -7
 provider: null
 plugin: search_form_block
 settings:

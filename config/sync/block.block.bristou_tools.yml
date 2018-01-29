@@ -1,6 +1,6 @@
 uuid: 5a6913b9-497c-4a3b-8033-b67f042b943b
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -13,7 +13,7 @@ _core:
 id: bristou_tools
 theme: bristou
 region: sidebar_first
-weight: 0
+weight: -6
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

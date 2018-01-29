@@ -1,0 +1,30 @@
+uuid: 93f7a03a-867e-4f71-a659-7a9dcbb90611
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.carousel_banner
+  module:
+    - system
+    - views
+  theme:
+    - bristou
+id: views_block__carousel_banner_carousel_banner_view
+theme: bristou
+region: highlighted
+weight: -7
+provider: null
+plugin: 'views_block:carousel_banner-carousel_banner_view'
+settings:
+  id: 'views_block:carousel_banner-carousel_banner_view'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
