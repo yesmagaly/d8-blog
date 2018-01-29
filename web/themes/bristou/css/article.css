@@ -29,6 +29,16 @@
   color: black;
 }
 
+.article__date {
+  margin-top: 1.2rem;
+}
+
+.article__date {
+  color: #afadab;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
 .article__summary p {
   color: #4b4a47;
   font-size: .95rem;
