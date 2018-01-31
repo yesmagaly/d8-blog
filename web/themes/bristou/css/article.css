@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 .article__container {
   text-align: center;
@@ -45,4 +46,49 @@
   line-height: 1.8;
   margin-bottom: 3rem;
   text-align: center;
+}
+
+.article__body p {
+  color: #4b4a47;
+  font-size: .95rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.article__body h3 {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.article__body blockquote {
+  font-style: italic;
+  font-weight: 500;
+  font-family: 'Dancing Script', cursive;
+  margin: 2.3rem 0;
+}
+
+.article__body blockquote:before, .article__body blockquote:after {
+  content: " ";
+  border-top: 1px solid #c49b5f;
+  display: block;
+  width: 5rem;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.article__body blockquote p {
+  color: #131313;
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.article__body ul {
+  text-align: left;
+}
+
+.article__body li {
+  color: #131313;
+  line-height: 2;
 }
