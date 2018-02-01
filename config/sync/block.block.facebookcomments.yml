@@ -1,0 +1,32 @@
+uuid: 0e1140d2-befa-4abe-b273-30b548ace732
+langcode: en
+status: true
+dependencies:
+  module:
+    - facebook_comments
+    - node
+  theme:
+    - bristou
+id: facebookcomments
+theme: bristou
+region: content
+weight: -3
+provider: null
+plugin: facebook_comments
+settings:
+  id: facebook_comments
+  label: 'Leave a reply'
+  provider: facebook_comments
+  label_display: visible
+  facebook_comments_style: light
+  facebook_comments_width: '208'
+  facebook_comments_width_fluid: 1
+  facebook_comments_amount: '5'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
